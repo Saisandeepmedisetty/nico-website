@@ -1,0 +1,63 @@
+.grid-component-container .grid-component  {
+    display: flex;
+        padding: 0;
+        width: 100%;
+        background-color: #2C2C2B;
+}
+
+.grid-component-container .grid-component .grid-component-container-card {
+    display: flex;
+      width: 40%;
+      padding: 5pc;
+}
+.grid-component-container .grid-component .grid-component-container-card  h1 {
+    color: #fff;
+        font-family: Helvetica Neue-Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3pc;
+        padding-bottom: 25px;
+}
+.grid-component-container .grid-component .grid-component-container-card p {
+    color: #fff;
+    font-family: Myriad Pro;
+    font-size: 1pc;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    padding-bottom: 45.5px;
+    }
+.grid-component-container .grid-component-credit-card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-component-container .grid-component-credit-card > div {
+    padding: 40px;
+    margin: 0 auto;
+        width: 296px;
+        background-color: #BBD2E8;
+}
+.grid-component-container .grid-component-credit-card h2 {
+    color: #2c2c2b;
+    font-family: Helvetica Neue-Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    }
+ .grid-component-container .grid-component-credit-card h3 {
+    color: #2c2c2b;
+        font-family: Myriad Pro;
+        font-size: 1pc;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+}
+.grid-component-container .grid-component .grid-component-container-card p a {
+    color: #fff;
+}

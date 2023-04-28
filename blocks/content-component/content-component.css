@@ -1,0 +1,44 @@
+.content-component {
+    background-color: #F8F8F7;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.content-component #how-it-works-the-path-to-a-policy {
+    color: #2C2C2B;
+    text-align: center;
+    font-size: 36px;
+    line-height: 3pc;
+    font-family: Helvetica Neue-Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.content-component hr {
+        background: #8fbf3f;
+        height: 4px;
+        width: 150px;
+}
+.content-component p {
+    font-family: Myriad Pro;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+            text-align: center;
+                color: #2C2C2B;
+}
+
+.content-component .button-container {
+    text-align: center;
+}
+.content-component .button-container a {
+    background: #2c5e93;
+    border: 0;
+    font-size: 1.04rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+    border-radius: 0;
+        padding: 15px 30px;
+}

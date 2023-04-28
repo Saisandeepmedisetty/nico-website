@@ -149,7 +149,6 @@ a.button:any-link, button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
@@ -219,7 +218,7 @@ main img {
   height: 100%;
   width: 100%;
 }
-
+/*
 main .section {
   padding: 64px 16px;
 }
@@ -236,7 +235,7 @@ main .section {
     margin: auto;
   }
 }
-
+*/
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);

@@ -1,0 +1,54 @@
+ :root {
+    --herocolumn-background-color: #2c5e93;
+
+ }
+
+.hero-column-wrapper .hero-column > div{
+    display: flex;
+    background: var(--herocolumn-background-color);
+}
+
+.hero-column-img{
+    width: 58%;
+}
+.hero-content-column {
+    width: 50%;
+}
+
+#a-solid-foundation-for-your-business {
+    color: #fff;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3pc;
+        margin-bottom: 15px;
+}
+
+.hero-content-column {
+        border-left: 7px solid #8fbf3f;
+        margin: 20px;
+        padding-left: 30px;
+}
+
+.hero-description {
+        font-family: Myriad Pro;
+        font-size: 1pc;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 15px;
+            color: #fff;
+}
+.hero-column-container .hero-content-column p a:first-child {
+background: #fff;
+    border: 0;
+    padding: 15px 20px 9pt;
+    color: #2c5e93;
+    }
+  .hero-column-container .hero-content-column p a:last-child {
+    color: #fff;
+        border: 0;
+        padding: 15px 20px 9pt;
+            background: transparent;
+            border: 3px solid #fff;
+            width: fit-content;
+        }
