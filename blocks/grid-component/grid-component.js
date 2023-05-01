@@ -19,6 +19,11 @@ export default function decorate(block) {
                 if(CreditCardContentSectionWrapper) {
                     CreditCardContentSectionWrapper.classList.add('grid-component-credit-card');
                 }
+                if(CreditCardContentSectionWrapper && CreditCardContentSectionWrapper.children.length === 4) {
+                    for (var i = 0; i < CreditCardContentSectionWrapper.children.length; i++) {
+                      CreditCardContentSectionWrapper.children[i].classList.add("c" + (i+1));
+                    }
+                }
 
       }
     });

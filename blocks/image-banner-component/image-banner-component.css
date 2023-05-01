@@ -58,3 +58,15 @@
             color: #2c5e93;
 
             }
+
+@media (max-width: 767px) {
+.image-banner-component-container .image-banner-component > div {
+flex-direction: column-reverse;
+}
+.image-banner-component-container .image-banner-component .image-banner-img {
+    width: 100%;
+}
+.image-banner-component-container .image-banner-container-card {
+    width: 100%;
+}
+}

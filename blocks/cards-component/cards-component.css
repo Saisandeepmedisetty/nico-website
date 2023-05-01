@@ -136,3 +136,21 @@ background: #e9e9e6;
             display: grid;
                 grid-template-columns: 50% 50%;
         }
+  @media (max-width: 1200px) {
+        .cards-component-container .cards-component {
+                    display: grid;
+                        grid-template-columns: 100%;
+                }
+                }
+   @media (max-width: 767px) {
+        .cards-component-container .cards-component > div {
+            flex-direction: column;
+        }
+        .cards-component-container .cards-component-img {
+            width: 100%;
+                justify-content: flex-start;
+        }
+        .cards-component-container .cards-component-column {
+            width: 100%;
+        }
+   }

@@ -52,3 +52,24 @@ background: #fff;
             border: 3px solid #fff;
             width: fit-content;
         }
+
+
+@media (max-width: 767px) {
+.hero-column-wrapper .hero-column > div{
+    flex-direction: column;
+}
+.hero-column-container .hero-column-img {
+    width: 100%;
+}
+}
+.hero-column-container .hero-column .hero-column-img img {
+    height: -webkit-fill-available;
+}
+
+@media (max-width: 800px) {
+
+.hero-column-container .hero-content-column p a:last-child {
+    display: block;
+    margin-top: 20px;
+}
+}

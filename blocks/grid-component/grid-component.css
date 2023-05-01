@@ -37,7 +37,6 @@
     padding: 40px;
     margin: 0 auto;
         width: 296px;
-        background-color: #BBD2E8;
 }
 .grid-component-container .grid-component-credit-card h2 {
     color: #2c2c2b;
@@ -61,3 +60,30 @@
 .grid-component-container .grid-component .grid-component-container-card p a {
     color: #fff;
 }
+.grid-component-container .grid-component .grid-component-credit-card .c1 {
+    background-color: #BBD2E8;
+}
+.grid-component-container .grid-component .grid-component-credit-card .c2 {
+    background-color: #C9DBED;
+    }
+    .grid-component-container .grid-component .grid-component-credit-card .c3 {
+    background-color: #D6E4F1;
+
+    }
+    .grid-component-container .grid-component .grid-component-credit-card .c4 {
+   background-color: #E4EDF6;
+    }
+    @media (max-width: 767px) {
+    .grid-component-container .grid-component {
+        flex-direction: column;
+    }
+    .grid-component-container .grid-component .grid-component-container-card {
+        width: 100%;
+    }
+    .grid-component-container .grid-component-credit-card {
+            grid-template-columns: 100%;
+    }
+    .grid-component-container .grid-component-credit-card > div {
+        width: 100%;
+    }
+    }

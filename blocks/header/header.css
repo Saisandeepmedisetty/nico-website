@@ -148,7 +148,7 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 20pc;
   height: auto;
 }
 
@@ -235,6 +235,7 @@ header nav .nav-sections ul > li > ul > li {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
+    color: #2c5e93;
   }
 
   header nav .nav-sections > ul > li > ul {
@@ -263,7 +264,7 @@ header nav .nav-sections ul > li > ul > li {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--highlight-background-color);
+    border-bottom: 8px solid rgb(234, 241, 249);
   }
 
   header nav .nav-sections > ul > li > ul > li {

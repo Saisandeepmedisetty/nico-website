@@ -4,6 +4,7 @@
 .quote-component-container .quote-component > div {
     display: flex;
         justify-content: center;
+
 }
 .quote-component-container .quote-container-card {
         -webkit-box-orient: vertical;
@@ -69,3 +70,21 @@ color: #fff;
                     border: 3px solid #fff;
                     width: fit-content;
                 }
+
+@media (max-width: 767px) {
+.quote-component-container .quote-component > div {
+ flex-direction: column;
+}
+.quote-component-container .quote-container-card {
+    width: 100%;
+}
+.quote-component-container .quote-img {
+    width: 100%;
+}
+}
+@media (max-width: 800px) {
+ .quote-component-container .quote-component p.quote-component-button a:last-child {
+    display: block;
+    margin-top: 20px;
+}
+}
