@@ -11,11 +11,8 @@
 .hero-column-img{
     width: 58%;
 }
-.hero-content-column {
-    width: 50%;
-}
 
-#a-solid-foundation-for-your-business {
+.hero-column-container .hero-content-column h1{
     color: #fff;
         font-size: 36px;
         font-style: normal;
@@ -26,8 +23,11 @@
 
 .hero-content-column {
         border-left: 7px solid #8fbf3f;
-        margin: 20px;
+        margin: 28px;
         padding-left: 30px;
+        display: flex;
+            flex-direction: column;
+            width: 50%;
 }
 
 .hero-description {
@@ -60,6 +60,10 @@ background: #fff;
 }
 .hero-column-container .hero-column-img {
     width: 100%;
+}
+
+.hero-column-container .hero-content-column {
+        width: 100%;
 }
 }
 .hero-column-container .hero-column .hero-column-img img {

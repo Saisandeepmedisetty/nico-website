@@ -60,12 +60,13 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
-  display: none;
+  /*display: none; */
 }
 
 body.appear {
-  display: unset;
+  display: grid;
 }
+
 
 header {
   height: var(--nav-height);
@@ -240,3 +241,7 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+* {
+    margin: 0;
+    padding: 0;
+    }
