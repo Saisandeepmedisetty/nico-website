@@ -88,7 +88,7 @@
     width: 100%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .quote-component-container
     .quote-component
     p.quote-component-button
