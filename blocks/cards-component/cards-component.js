@@ -2,7 +2,6 @@ export default function decorate(block) {
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
 
-  // setup image columns
   [...block.children].forEach((row) => {
     [...row.children].forEach((col) => {
       const pic = col.querySelector('.cards-component-container picture');
@@ -26,7 +25,7 @@ export default function decorate(block) {
         if(paragraphWrapper) {
             paragraphWrapper.classList.add('cards-components-button');
             var icon = document.createElement('i');
-            icon.className = "fa-regular fa-arrow-right";
+            icon.className = "fa-regular fa-arrow-circle-right";
             col.querySelector(".cards-component-container .cards-components-button a").append(icon);
         }
       }

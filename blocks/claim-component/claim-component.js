@@ -2,7 +2,6 @@ export default function decorate(block) {
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
 
-  // setup image columns
   [...block.children].forEach((row) => {
     [...row.children].forEach((col) => {
       const contentSection = col.querySelector('.claim-component-container h1');
@@ -13,12 +12,6 @@ export default function decorate(block) {
         const contentWrapper = contentSection.closest('div');
         if(contentWrapper && contentWrapper.children.length === 3) {
             contentWrapper.classList.add('claim-content-column');
-        }
-      }
-      if(paragraphSection) {
-        const paragraphWrapper =  paragraphSection.closest('p');
-        if(paragraphWrapper) {
-        //    paragraphWrapper.classList.add('');
         }
       }
       if(claimSubTitle) {

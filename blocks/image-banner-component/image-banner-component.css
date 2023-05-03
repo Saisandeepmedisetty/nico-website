@@ -1,72 +1,77 @@
 .image-banner-component-container .image-banner-component > div {
-    display: flex;
+  display: flex;
 }
 .image-banner-component-container .image-banner-component .image-banner-img {
-        display: flex;
-        max-height: 100%;
-        width: 50%;
+  display: flex;
+  max-height: 100%;
+  width: 50%;
 }
-.image-banner-component-container .image-banner-component .image-banner-img img{
-    height: 100%;
-    max-height: 100%;
-    min-height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 100%;
-    }
+.image-banner-component-container
+  .image-banner-component
+  .image-banner-img
+  img {
+  height: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
 .image-banner-component-container {
-    background-color: #333;
-    padding: 40px 5pc;
+  background-color: #333;
+  padding: 40px 5pc;
 }
 .image-banner-component-container .image-banner-container-card {
-    padding: 88px 40px;
-    width: 50%;
-
-    }
-   .image-banner-component-container .image-banner-container-card .left_border {
-    -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            border-left: 8px solid #8fbf3f;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            gap: 25px;
-            padding-left: 28px;
-            }
-   .image-banner-component-container .image-banner-container-card h1{
-    color: #fff;
-        font-family: Helvetica Neue-Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 3pc;
-        }
-   .image-banner-component-container .image-banner-container-card p{
-        color: #fff;
-            font-family: Myriad Pro;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 24px;
-        }
-.image-banner-component-container .image-banner-container-card .button-container a{
-            background: #fff;
-            border: 0;
-            padding: 15px 20px 9pt;
-            color: #2c5e93;
-
-            }
+  padding: 88px 40px;
+  width: 50%;
+}
+.image-banner-component-container .image-banner-container-card .left_border {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  border-left: 8px solid #8fbf3f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 28px;
+}
+.image-banner-component-container .image-banner-container-card h1 {
+  color: #fff;
+  font-family: Helvetica Neue-Light, Helvetica Neue, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3pc;
+}
+.image-banner-component-container .image-banner-container-card p {
+  color: #fff;
+  font-family: Myriad Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.image-banner-component-container
+  .image-banner-container-card
+  .button-container
+  a {
+  background: #fff;
+  border: 0;
+  padding: 15px 20px 9pt;
+  color: #2c5e93;
+}
 
 @media (max-width: 767px) {
-.image-banner-component-container .image-banner-component > div {
-flex-direction: column-reverse;
-}
-.image-banner-component-container .image-banner-component .image-banner-img {
+  .image-banner-component-container .image-banner-component > div {
+    flex-direction: column-reverse;
+  }
+  .image-banner-component-container .image-banner-component .image-banner-img {
     width: 100%;
-}
-.image-banner-component-container .image-banner-container-card {
+  }
+  .image-banner-component-container .image-banner-container-card {
     width: 100%;
-}
+  }
 }
