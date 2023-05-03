@@ -33,11 +33,10 @@
 .grid-component-container .grid-component-credit-card {
   display: grid;
   grid-template-columns: 50% 50%;
+  width: 60%;
 }
 .grid-component-container .grid-component-credit-card > div {
   padding: 40px;
-  margin: 0 auto;
-  width: 296px;
 }
 .grid-component-container .grid-component-credit-card h2 {
   color: #2c2c2b;
@@ -83,6 +82,7 @@
   }
   .grid-component-container .grid-component-credit-card {
     grid-template-columns: 100%;
+     width: 100%;
   }
   .grid-component-container .grid-component-credit-card > div {
     width: 100%;

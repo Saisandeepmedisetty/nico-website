@@ -5,6 +5,7 @@
 .hero-column-wrapper .hero-column > div {
   display: flex;
   background: var(--herocolumn-background-color);
+
 }
 
 .hero-column-img {
@@ -26,7 +27,7 @@
   padding-left: 30px;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 42%;
 }
 
 .hero-description {
@@ -36,6 +37,7 @@
   line-height: 20px;
   margin-bottom: 15px;
   color: #fff;
+  margin-right: 15px;
 }
 .hero-column-container .hero-content-column p a:first-child {
   background: #fff;
@@ -65,7 +67,7 @@
   }
 }
 .hero-column-container .hero-column .hero-column-img img {
-  height: -webkit-fill-available;
+  height: 100%;
 }
 
 @media (max-width: 800px) {

@@ -76,6 +76,13 @@
     --heading-font-size-xs: 22px;
   }
 }
+* {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-size: var(--body-font-size-m);
@@ -272,32 +279,11 @@ main img {
   height: 100%;
   width: 100%;
 }
-/*
-main .section {
-  padding: 64px 16px;
-}
 
-@media (min-width: 600px) {
-  main .section {
-    padding: 64px 32px;
-  }
-}
-
-@media (min-width: 900px) {
-  .section > div {
-    max-width: 1200px;
-    margin: auto;
-  }
-}
-*/
-/* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 .fa-regular {
   -webkit-font-smoothing: antialiased;
@@ -308,3 +294,4 @@ main .section.highlight {
   line-height: 1;
   font-family: fontAwesome;
 }
+
