@@ -22,4 +22,21 @@ export default async function decorate(block) {
     decorateIcons(footer);
     block.append(footer);
   }
+
+  [...block.children].forEach((row) => {
+      [...row.children].forEach((col) => {
+            const socialIconSection = col.querySelector('.footer .image-logo > div');
+            if(socialIconSection) {
+            var a = document.createElement('a');
+                a.target = '_blank';
+                a.href = 'https://www.linkedin.com/company/national-indemnity-company/';
+
+            var icon = document.createElement('i');
+            icon.className = "fa-regular fa-linkedin";
+            a.append(icon);
+            socialIconSection.append(a);
+            }
+          });
+        });
+
 }
