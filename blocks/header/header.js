@@ -141,5 +141,23 @@ export default async function decorate(block) {
     navWrapper.className = 'nav-wrapper';
     navWrapper.append(nav);
     block.append(navWrapper);
+
+     [...block.children].forEach((row) => {
+          [...row.children].forEach((col) => {
+                const contactUsSection = col.querySelector('.header .nav-wrapper .nav-sections .contact-us-section');
+                if(contactUsSection) {
+                [...contactUsSection.children].forEach( (anchors,index) =>{
+                                var icon = document.createElement('i');
+                                if(index == 0){
+                                icon.className = "fa-regular fa-user";
+                                }else{
+                                   icon.className = "fa-regular fa-user-circle-o";
+                                }
+                                const anchor = anchors.firstElementChild;
+                                anchor.prepend(icon);
+                });
+                }
+              });
+            });
   }
 }

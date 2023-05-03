@@ -230,6 +230,7 @@ header nav .nav-sections ul > li > ul > li {
     gap: 2em;
     margin: 0;
     font-size: var(--body-font-size-xs);
+    margin-top: 4%;
   }
 
   header nav .nav-sections > ul > li {
@@ -276,4 +277,37 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+header nav .contact-us-section {
+color: #2c5e93;
+    font-size: 9pt;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    display: flex;
+    float: right;
+    }
+header nav .contact-us-section > div {
+    margin-right: 3%;
+        font-family: Helvetica Neue-Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+
+}
+header nav .contact-us-section a {
+    text-decoration: none;
+}
+header nav .nav-brand .header-mobile-logo img {
+    width: 4pc;
+}
+@media only screen  and (min-width: 1200px) {
+    header nav .nav-brand .header-mobile-logo {
+         display: none;
+    }
+}
+@media only screen  and (max-width: 1199px) {
+    header nav .nav-brand .header-desktop-logo {
+         display: none;
+    }
+}
+header nav .contact-us-section i {
+    margin-right: 6px;
 }
