@@ -311,3 +311,8 @@ header nav .nav-brand .header-mobile-logo img {
 header nav .contact-us-section i {
     margin-right: 6px;
 }
+@media only screen and (max-width: 900px) {
+header nav .contact-us-section {
+    display: none;
+}
+}
