@@ -116,7 +116,7 @@ async function loadLazy(doc) {
   loadCSS(`${window.hlx.codeBasePath}/styles/HelveticaNeue.ttf`);
   loadCSS(`${window.hlx.codeBasePath}/styles/HelveticaNeue_Light.ttf`);
   loadCSS(`${window.hlx.codeBasePath}/styles/HelveticaNeueLTStd-Lt.otf`);
-  loadCSS(`${window.hlx.codeBasePath}/styles/MYRIADPRO-REGULAR.otf`);
+  loadCSS(`${window.hlx.codeBasePath}/styles/MYRIADPRO-REGULAR.OTF`);
   addFavIcon(`${window.hlx.codeBasePath}/styles/favicon.svg`);
   sampleRUM('lazy');
   sampleRUM.observe(main.querySelectorAll('div[data-block-name]'));
